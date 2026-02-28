@@ -1,0 +1,24 @@
+{
+  "id": "org.nirvanna.webseries",
+  "version": "1.0.0",
+  "name": "NirvannaTheBandTheShow Webseries",
+  "description": "Browse and play the NirvannaTheBandTheShow webseries episodes.",
+  "types": [
+    "series"
+  ],
+  "import": false,
+  "resources": [
+    "catalog",
+    "meta",
+    "stream"
+  ],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "nirvanna-webseries-catalog"
+    }
+  ],
+  "idPrefixes": [
+    "nirvanna_"
+  ]
+}
