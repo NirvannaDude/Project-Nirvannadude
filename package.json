@@ -1,0 +1,26 @@
+{
+  "name": "stremio-nirvanna-addon",
+  "version": "1.0.0",
+  "description": "Stremio add-on for NirvannaTheBandTheShow webseries",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "stremio-addon-sdk": "^0.5.3",
+    "node-fetch": "^2.6.7",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "stremio",
+    "addon",
+    "nirvanna",
+    "webseries"
+  ],
+  "author": "NirvannaDude",
+  "license": "MIT"
+}
